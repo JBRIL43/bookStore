@@ -8,7 +8,7 @@ export  let books = [
         "purchasedPrice": 20,
         "rentPrice": 3,
         "decription": "Atomic Habits is a guIde to making small changes that lead to remarkable results. It provides strategies for building good habits, breaking bad ones, and mastering the behaviors that lead to success.",
-        "image": "../Assets/IMG/atomic_habit.jpg",
+        "image": "Assets/IMG/atomic_habit.jpg",
         "Id": 1
     },
     {
@@ -20,7 +20,7 @@ export  let books = [
         "purchasedPrice": 15,
         "rentPrice": 2,
         "decription": "The Great Gatsby is a 1925 novel by American writer F. Scott Fitzgerald. Set in the Jazz Age on Long Island, the novel depicts narrator Nick Carraway's interactions with mysterious millionaire Jay Gatsby and Gatsby's obsession to reunite with his former lover, Daisy Buchanan.",
-        "image": "./Assets/IMG/the_greatest_gatsby.jpg",
+        "image": "Assets/IMG/the_greatest_gatsby.jpg",
         "Id": 2
     },
     {
@@ -46,7 +46,7 @@ export  let books = [
         "purchasedPrice": 22,
         "rentPrice": 4,
         "decription": "The Power of Habit is a book by Charles Duhigg, a New York Times reporter, published in February 2012 by Random House. It explores the science behind why habits exist and how they can be changed.",
-        "image": "/Assets/IMG/the_power_of_habits.jpg",
+        "image": "Assets/IMG/the_power_of_habits.jpg",
         "Id": 4
     },
 
@@ -59,7 +59,7 @@ export  let books = [
         "purchasedPrice": 20,
         "rentPrice": 3,
         "description": "The Power of Now is a guIde to spiritual enlightenment and living in the present moment. Eckhart Tolle shares how to overcome the mind's constraints to find true happiness.",
-        "image": "/Assets/IMG/the_power_of_now.jpg",
+        "image": "Assets/IMG/the_power_of_now.jpg",
         "Id": 5
     },
     {
@@ -71,7 +71,7 @@ export  let books = [
         "purchasedPrice": 22,
         "rentPrice": 3,
         "description": "Daring Greatly explains how embracing vulnerability and imperfections can lead to a life of courage, connection, and purpose.",
-        "image": "/Assets/IMG/darling_greatly.png",
+        "image": "Assets/IMG/darling_greatly.png",
         "Id": 6
     },
     {
@@ -83,7 +83,7 @@ export  let books = [
         "purchasedPrice": 25,
         "rentPrice": 4,
         "description": "Rich Dad Poor Dad shares lessons on money management, investing, and building wealth based on the author's experiences with his two 'dads'—his biological father and his best friend's father.",
-        "image": "/Assets/IMG/rich_dad_poor_dad.jpg",
+        "image": "Assets/IMG/rich_dad_poor_dad.jpg",
         "Id": 7
     },
     {
@@ -95,7 +95,7 @@ export  let books = [
         "purchasedPrice": 23,
         "rentPrice": 3,
         "description": "Start with Why explores how great leaders inspire action by understanding their 'why' and communicating it effectively.",
-        "image": "/Assets/IMG/start_with_why.jpg",
+        "image": "Assets/IMG/start_with_why.jpg",
         "Id": 8
     },
     {
@@ -107,7 +107,7 @@ export  let books = [
         "purchasedPrice": 24,
         "rentPrice": 3,
         "description": "Mindset explains the power of beliefs in shaping success, highlighting the differences between a fixed and growth mindset.",
-        "image": "/Assets/IMG/mindset.jpg",
+        "image": "Assets/IMG/mindset.jpg",
         "Id": 9
     },
     {
@@ -119,7 +119,7 @@ export  let books = [
         "purchasedPrice": 26,
         "rentPrice": 4,
         "description": "Deep Work teaches strategies for focused success in a distracted world by cultivating deep work habits.",
-        "image": "/Assets/IMG/deep_work.jpg",
+        "image": "Assets/IMG/deep_work.jpg",
         "Id": 10
     },
     {
@@ -131,7 +131,7 @@ export  let books = [
         "purchasedPrice": 21,
         "rentPrice": 3,
         "description": "This classic book provIdes timeless principles for building relationships, influencing people, and achieving personal and professional success.",
-        "image": "/Assets/IMG/how_to_win_friends_and_influence_others.jpg",
+        "image": "Assets/IMG/how_to_win_friends_and_influence_others.jpg",
         "Id": 11
     }, 
 
@@ -144,7 +144,7 @@ export  let books = [
         "purchasedPrice": 20,
         "rentPrice": 3,
         "decription": "The 7 Habits of Highly Effective People, first published in 1989, is a business and self-help book written by Stephen R. Covey. Covey presents an approach to being effective in attaining goals by aligning oneself to what he calls 'true north' principles based on a character ethic that he presents as universal and timeless.",
-        "image": "/Assets/IMG/the_7_habits.jpg",
+        "image": "Assets/IMG/the_7_habits.jpg",
         "Id": 12
     },
 
@@ -157,7 +157,7 @@ export  let books = [
         "purchasedPrice": 28,
         "rentPrice": 5,
         "description": "Sapiens explores the history of humankind, from the emergence of Homo sapiens to the modern age, examining how biology and history have shaped our society.",
-        "image": "/Assets/IMG/history_of_humankind.jpg",
+        "image": "Assets/IMG/history_of_humankind.jpg",
         "Id": 13
     },
     {
@@ -169,7 +169,7 @@ export  let books = [
         "purchasedPrice": 23,
         "rentPrice": 4,
         "description": "Educated is a memoir of a woman who grew up in a strict and abusive household in rural Idaho but eventually escapes to learn about the broader world through education.",
-        "image": "/Assets/IMG/educated.jpg",
+        "image": "Assets/IMG/educated.jpg",
         "Id": 14
     },
     {
@@ -181,7 +181,7 @@ export  let books = [
         "purchasedPrice": 17,
         "rentPrice": 2,
         "description": "The Four Agreements offers a code of conduct based on ancient Toltec wisdom that can lead to personal freedom and happiness.",
-        "image": "/Assets/IMG/the_four_agreements.jpg",
+        "image": "Assets/IMG/the_four_agreements.jpg",
         "Id": 15
     },
     {
@@ -193,7 +193,7 @@ export  let books = [
         "purchasedPrice": 24,
         "rentPrice": 4,
         "description": "Outliers examines the factors that contribute to high levels of success, focusing on the role of opportunity and cultural legacies.",
-        "image": "/Assets/IMG/outliers.jpg",
+        "image": "Assets/IMG/outliers.jpg",
         "Id": 16
     },
     {
@@ -205,7 +205,7 @@ export  let books = [
         "purchasedPrice": 30,
         "rentPrice": 5,
         "description": "Can't Hurt Me is a memoir of resilience and overcoming challenges, sharing lessons on mental toughness from Navy SEAL DavId Goggins.",
-        "image": "/Assets/IMG/cant_hurt_me.jpg",
+        "image": "Assets/IMG/cant_hurt_me.jpg",
         "Id": 17
     },
     {
@@ -217,7 +217,7 @@ export  let books = [
         "purchasedPrice": 27,
         "rentPrice": 4,
         "description": "The Lean Startup offers a methodology for developing businesses and products by building prototypes, testing, and iterating quickly.",
-        "image": "/Assets/IMG/the_lean_startup.png",
+        "image": "Assets/IMG/the_lean_startup.png",
         "Id": 18
     },
     {
@@ -229,7 +229,7 @@ export  let books = [
         "purchasedPrice": 20,
         "rentPrice": 3,
         "description": "Think and Grow Rich explores the power of personal beliefs and the role they play in achieving success.",
-        "image": "/Assets/IMG/think_and_grow_rich.jpg",
+        "image": "Assets/IMG/think_and_grow_rich.jpg",
         "Id": 19
     },
     {
@@ -241,7 +241,7 @@ export  let books = [
         "purchasedPrice": 15,
         "rentPrice": 2,
         "description": "The Art of War is an ancient Chinese text on military strategy and tactics, offering wisdom applicable beyond the battlefield.",
-        "image": "/Assets/IMG/the_art_of_war.jpg",
+        "image": "Assets/IMG/the_art_of_war.jpg",
         "Id": 20
     },
     {
@@ -253,7 +253,7 @@ export  let books = [
         "purchasedPrice": 18,
         "rentPrice": 3,
         "description": "This book details Viktor Frankl's experiences in Nazi concentration camps and introduces his theory of logotherapy, centered on finding meaning in life.",
-        "image": "/Assets/IMG/mans_search_for_meaning.jpg",
+        "image": "Assets/IMG/mans_search_for_meaning.jpg",
         "Id": 21
     },
     {
@@ -265,7 +265,7 @@ export  let books = [
         "purchasedPrice": 22,
         "rentPrice": 3,
         "description": "The 5 Love Languages explains how to improve relationships by understanding and responding to the different ways people express love.",
-        "image": "/Assets/IMG/5_love_languages.jpg",
+        "image": "Assets/IMG/5_love_languages.jpg",
         "Id": 22
     },
     {
@@ -277,7 +277,7 @@ export  let books = [
         "purchasedPrice": 25,
         "rentPrice": 4,
         "description": "Good to Great examines why some companies make the leap to greatness while others fail, offering insights from years of research.",
-        "image": "/Assets/IMG/good_to_great.jpg",
+        "image": "Assets/IMG/good_to_great.jpg",
         "Id": 23
     },
     {
@@ -289,7 +289,7 @@ export  let books = [
         "purchasedPrice": 18,
         "rentPrice": 3,
         "description": "The War of Art addresses resistance, a universal force that prevents us from fulfilling our creative potential, and provIdes strategies to overcome it.",
-        "image": "/Assets/IMG/the_war_of_art.jpg",
+        "image": "Assets/IMG/the_war_of_art.jpg",
         "Id": 24
     },
     {
@@ -301,7 +301,7 @@ export  let books = [
         "purchasedPrice": 26,
         "rentPrice": 4,
         "description": "Crushing It! shares stories of entrepreneurs who have leveraged social media to build thriving personal brands.",
-        "image": "/Assets/IMG/crushing_it.jpg",
+        "image": "Assets/IMG/crushing_it.jpg",
         "Id": 25
     },
     {
@@ -313,7 +313,7 @@ export  let books = [
         "purchasedPrice": 23,
         "rentPrice": 4,
         "description": "Quiet explores the unique strengths of introverts and how they can thrive in a society that often favors extroversion.",
-        "image": "/Assets/IMG/quiet.png ",
+        "image": "Assets/IMG/quiet.png ",
         "Id": 26
     },
     {
@@ -325,7 +325,7 @@ export  let books = [
         "purchasedPrice": 20,
         "rentPrice": 3,
         "description": "This inspiring tale offers a step-by-step approach to living with greater courage, balance, abundance, and joy.",
-        "image": "/Assets/IMG/the_monk_who_sold_his_ferrari.jpg",
+        "image": "Assets/IMG/the_monk_who_sold_his_ferrari.jpg",
         "Id": 27
     },
     {
@@ -337,7 +337,7 @@ export  let books = [
         "purchasedPrice": 24,
         "rentPrice": 4,
         "description": "The Happiness Project chronicles the author's year-long experiment to increase her own happiness and shares lessons learned.",
-        "image": "/Assets/IMG/the_happiness_project.jpg",
+        "image": "Assets/IMG/the_happiness_project.jpg",
         "Id": 28
     },
     {
@@ -349,7 +349,7 @@ export  let books = [
         "purchasedPrice": 29,
         "rentPrice": 5,
         "description": "12 Rules for Life combines psychology, philosophy, and practical advice to guIde readers toward a meaningful life.",
-        "image": "/Assets/IMG/12_rules_for_life.jpg",
+        "image": "Assets/IMG/12_rules_for_life.jpg",
         "Id": 29
     },
     {
@@ -361,7 +361,7 @@ export  let books = [
         "purchasedPrice": 22,
         "rentPrice": 3,
         "description": "This book explores Adlerian psychology and shows how we can free ourselves from the shackles of past traumas and social pressures.",
-        "image": "/Assets/IMG/the_courage_to_be_disliked.jpg",
+        "image": "Assets/IMG/the_courage_to_be_disliked.jpg",
         "Id": 30
     },
     {
@@ -373,7 +373,7 @@ export  let books = [
         "purchasedPrice": 19,
         "rentPrice": 3,
         "description": "The Secret reveals the law of attraction, offering guIdance on how to manifest positive outcomes in your life.",
-        "image": "/Assets/IMG/the_secret.jpg",
+        "image": "Assets/IMG/the_secret.jpg",
         "Id": 31
     },
     {
@@ -385,7 +385,7 @@ export  let books = [
         "purchasedPrice": 25,
         "rentPrice": 4,
         "description": "Grit examines how passion and perseverance drive success, based on research and real-life examples.",
-        "image": "/Assets/IMG/grit.jpg",
+        "image": "Assets/IMG/grit.jpg",
         "Id": 32
     }
 
@@ -401,7 +401,7 @@ export let cart = [
         "purchasedPrice": 25,
         "rentPrice": 4,
         "decription": "The Great Gatsby is a 1925 novel by American writer F. Scott Fitzgerald. Set in the Jazz Age on Long Island, the novel depicts narrator Nick Carraway's interactions with mysterious millionaire Jay Gatsby and Gatsby's obsession to reunite with his former lover, Daisy Buchanan.",
-        "image": "/Assets/IMG/image.png",
+        "image": "Assets/IMG/image.png",
         "Id": 1
     }
 
