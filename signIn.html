@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontAwsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- FavIocn -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../CSS/login.css">
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="../CSS/theme.css">
+    <title>Login page</title>
+</head>
+<body>
+    <section class="container">
+        <div class="login_container">
+            <div class="login-content">
+                <div class="login-title">
+                    <h1>Login</h1>
+                </div>
+
+                <div class="login-form-container">
+                    <form action="" class="login-form">
+                        <div class="input-field">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="input-field">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                        </div>
+                        <div class="input-field">
+                            <button type="submit" id="btn" class="btn">Login</button>
+                        </div>
+                        <div class="input-field">
+                            <p>Don't have an account? <a href="../HTML/signUp.html">Sign Up</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        document.querySelector('.btn').addEventListener('click', function() {
+            window.location.href = 'catalog.html'
+        })
+    </script>
+</body>
+</html>

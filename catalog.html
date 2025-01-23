@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontAwsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../CSS/catalog.css">
+    <link rel="stylesheet" href="../CSS/styel.css">
+    <title>Catalog</title>
+</head>
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo-wrapper">
+                    <a href="./home.html">
+                        <img src="../Assets/icon/Blue Modern Education Logo.png" alt="" class="logo">
+                        <span>LibraryHub</span>
+                    </a>
+                </div>
+
+                <div class="nav-center">
+                    <ul class="nav-links">
+                        <li><a href="./catalog.html" class="nav-link active">Catalog</a></li>
+                        <li><a href="./about.html" class="nav-link">About</a></li>
+                        <li><a href="./contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav-right">
+                    <a href="./cart.html" class="cart-link">
+                        <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"/>
+                        </svg>
+                        <span class="cart-count">0</span>
+                    </a>
+
+                    <a href="./dashboard.html" class="user-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                        <span>Dashboard</span>
+                    </a>
+
+                    <button class="logout-btn">Logout</button>
+
+                    <button class="menu-toggle" id="menu-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-16 6h16"/>
+                        </svg>
+                    </button>
+
+                    <div class="menu-close">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17.828" height="17.828"><path d="m2.828 17.828 6.086-6.086L15 17.828 17.828 15l-6.086-6.086 6.086-6.086L15 0 8.914 6.086 2.828 0 0 2.828l6.085 6.086L0 15l2.828 2.828z"/></svg>  
+                    </div>
+                 
+                </div>
+            </nav>
+        </div>
+    </header>
+        
+
+    <section class="catalog">
+        <div class="catalog-container">
+            <div class="catalog-header">
+                <h1 class="catalog__title">
+                    Catalog
+                </h1>
+            </div>
+
+            <div class="catalog-search">
+                <input type="text" class="catalog-search__input" placeholder="Search">
+                <button class="catalog-search__btn">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+
+            <div class="catalog-filter-btns">
+                <button class="catalog-filter-btn active">
+                    All
+                </button>
+                <button class="catalog-filter-btn">
+                    New
+                </button>
+                <button class="catalog-filter-btn">
+                    Popular
+                </button>
+                <button class="catalog-filter-btn">
+                    Discount
+                </button>
+            </div>
+
+            <div class="catalog-books" id="catalog-books">
+            
+        </div>
+    </section>
+</body>
+<script src="../JS/main.js" type="module"></script>
+<script src="../JS/cart.js" ></script>
+<script src="../JS/catalog.js" ></script>
+</script>
+</html>

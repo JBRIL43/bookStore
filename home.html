@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../CSS/styel.css">
+    <title>Home Page</title>
+</head>
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="./home.html" class="logo">
+                    <img src="../Assets/icon/Blue Modern Education Logo.png" alt="Logo" class="logo">
+                </a>
+                
+
+                <div class="nav-right">
+                    <!-- <div class="nav-links">
+                        <a href="./catalog.html" class="nav-link">Catalog</a>
+                        <a href="./about.html" class="nav-link">About</a>
+                        <a href="./contact.html" class="nav-link">Contact</a>
+                    </div> -->
+                    
+                    <div class="auth-buttons">
+                        <a href="../HTML/signIn.html" class="login-btn">Login</a>
+                        <a href="../HTML/signUp.html" class="signup-btn">Get Started</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="hero-section" >
+        <div class="hero-content">
+            <h1 class="hero-title">
+                Unleash the power of
+                <span class="highlight">reading books</span>
+            </h1>
+            
+            <p class="hero-description">
+                Say goodbye to the outdated library systems. Every book lover, 
+                regardless of the background, can now explore their favorite books like never before. 
+                Simple. Intuitive. And never boring.
+            </p>
+
+            <div class="cta-buttons">
+                <a href="../HTML/signUp.html" class="primary-btn">Join the waitlist</a>
+                <a href="#features" class="secondary-btn">Learn more</a>
+            </div>
+        </div>
+    </main>
+
+    <section class="hub_section">
+        <div class="hub_title">
+            <h1>Why Choose LibraryHub?</h1>
+        </div>
+        <div class="hub_lists" >
+            <div class="hub_list">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);"><path d="M10 18a7.952 7.952 0 0 0 4.897-1.688l4.396 4.396 1.414-1.414-4.396-4.396A7.952 7.952 0 0 0 18 10c0-4.411-3.589-8-8-8s-8 3.589-8 8 3.589 8 8 8zm0-14c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6z"></path></svg>
+                <p>Easy Search</p>
+                <p>Find your next read with our powerful search system</p>
+            </div>
+            <div class="hub_list">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);"><path d="M3 5v14c0 2.201 1.794 3 3 3h15v-2H6.012C5.55 19.988 5 19.806 5 19s.55-.988 1.012-1H21V4c0-1.103-.897-2-2-2H6c-1.206 0-3 .799-3 3z"></path></svg>
+                <p>Vast Collection</p>
+                <p>Access thousands of books across various genres</p>
+            </div>
+            <div class="hub_list">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);"><path d="M9.5 12c2.206 0 4-1.794 4-4s-1.794-4-4-4-4 1.794-4 4 1.794 4 4 4zm1.5 1H8c-3.309 0-6 2.691-6 6v1h15v-1c0-3.309-2.691-6-6-6z"></path><path d="M16.604 11.048a5.67 5.67 0 0 0 .751-3.44c-.179-1.784-1.175-3.361-2.803-4.44l-1.105 1.666c1.119.742 1.8 1.799 1.918 2.974a3.693 3.693 0 0 1-1.072 2.986l-1.192 1.192 1.618.475C18.951 13.701 19 17.957 19 18h2c0-1.789-.956-5.285-4.396-6.952z"></path></svg>                
+                <p>Community</p>
+                <p>Join our community of book lovers</p>
+            </div>
+            <div class="hub_list">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);"><path d="M12.25 2c-5.514 0-10 4.486-10 10s4.486 10 10 10 10-4.486 10-10-4.486-10-10-10zM18 13h-6.75V6h2v5H18v2z"></path></svg>                
+                <p>Quick Process</p>
+                <p>Borrow books with just a few clicks</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="feature-section" id="features">
+        <div class="feautured-title">
+            <h1>Featured Books</h1>
+        </div>
+        <div class="feautured-books">
+            <div class="books">
+                <div class="book-cover">
+                    <img src="../Assets/IMG/Download Online book store for free.jpg" alt="">
+                </div>
+                <div class="book-description">
+                    <h4>The Great Gatsby</h4>
+                    <p>F. Scott Fitzgerald</p>
+                    <button class="btn-book" id="btn-book"  onclick="displayNotification()">Learn More</button>
+                </div>
+            </div>
+            <div class="books">
+                <div class="book-cover">
+                    <img src="../Assets/IMG/photo-1544947950-fa07a98d237f.avif" alt="">
+                </div>
+                <div class="book-description">
+                    <h4>The Great Gatsby</h4>
+                    <p>F. Scott Fitzgerald</p>
+                    <button class="btn-book" id="btn-book" onclick="displayNotification()" >Learn More</button>
+                </div>
+            </div>
+            <div class="books">
+                <div class="book-cover">
+                    <img src="../Assets/IMG/photo-1544947950-fa07a98d237f.avif" alt="">
+                </div>
+                <div class="book-description">
+                    <h4>The Great Gatsby</h4>
+                    <p>F. Scott Fitzgerald</p>
+                    <button class="btn-book" id="btn-book" onclick="displayNotification()" >Learn More</button>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="notification" id="notification" >First log in or sign up to proceed</div> -->
+    </section>
+    
+    <footer class="footer">
+        <div class="footer-title">
+            <h2>Ready to Start Reading?</h2>
+        </div>
+        <div class="footer-paragraph">Join our community today and get access to thousands of books.</div>
+        <a href="./signUp.html">
+            <button class="footer-btn">Create Free Account</button>
+        </a href="./signUp.html">
+    </footer>
+
+    <script src="../JS/aut.js"></script>
+</body>
+</html>
