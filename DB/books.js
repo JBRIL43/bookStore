@@ -8,7 +8,7 @@ export  let books = [
         "purchasedPrice": 20,
         "rentPrice": 3,
         "decription": "Atomic Habits is a guIde to making small changes that lead to remarkable results. It provides strategies for building good habits, breaking bad ones, and mastering the behaviors that lead to success.",
-        "image": "/Assets/IMG/atomic_habit.jpg",
+        "image": "../Assets/IMG/atomic_habit.jpg",
         "Id": 1
     },
     {
@@ -20,7 +20,7 @@ export  let books = [
         "purchasedPrice": 15,
         "rentPrice": 2,
         "decription": "The Great Gatsby is a 1925 novel by American writer F. Scott Fitzgerald. Set in the Jazz Age on Long Island, the novel depicts narrator Nick Carraway's interactions with mysterious millionaire Jay Gatsby and Gatsby's obsession to reunite with his former lover, Daisy Buchanan.",
-        "image": "/Assets/IMG/the_greatest_gatsby.jpg",
+        "image": "./Assets/IMG/the_greatest_gatsby.jpg",
         "Id": 2
     },
     {
@@ -33,7 +33,7 @@ export  let books = [
         "rentPrice": 3,
         "decription": "The Alchemist follows the journey of an Andalusian shepherd  named Santiago. Believing a recurring dream to be prophetic, he asks a Romani fortune teller in a nearby town about its meaning"
         ,
-        "image": "/Assets/IMG/the_alchemist.jpg",
+        "image": "Assets/IMG/the_alchemist.jpg",
         "Id": 3
     },
 
