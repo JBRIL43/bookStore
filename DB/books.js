@@ -8,7 +8,7 @@ export  let books = [
         "purchasedPrice": 20,
         "rentPrice": 3,
         "decription": "Atomic Habits is a guIde to making small changes that lead to remarkable results. It provides strategies for building good habits, breaking bad ones, and mastering the behaviors that lead to success.",
-        "image": "../Assets/IMG/atomic_habit.jpg",
+        "image": "/Assets/IMG/atomic_habit.jpg",
         "Id": 1
     },
     {
