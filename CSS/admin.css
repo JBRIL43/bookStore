@@ -1,0 +1,372 @@
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo {
+    height: 50px;
+}
+
+.navbar__menu {
+    display: flex;
+}
+
+.navbar__list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar__item {
+    margin-left: 20px;
+}
+
+.navbar__link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar__link:hover {
+    text-decoration: underline;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__close {
+    display: none;
+}
+
+.user-dashboard {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.dashboard-btn {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.user-dashboard__cart {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.navbar__logout .logout-btn {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.navbar__toggle {
+    display: none;
+    cursor: pointer;
+}
+
+.admin-footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.admin-footer a:hover {
+    text-decoration: underline;
+}
+
+.add-book-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.add-book-section .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-book-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.add-book-form .form-group {
+    margin-bottom: 15px;
+}
+
+.add-book-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.add-book-form .form-group input,
+.add-book-form .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-book-form .form-group textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.add-book-form .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-book-form .btn:hover {
+    background-color: #0056b3;
+}
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Admin section styles */
+.admin-section {
+    padding: 20px;
+}
+
+.admin-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+.admin-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.admin-header h1 {
+    margin: 0;
+    color: #333;
+}
+
+/* Content styles */
+.admin-content {
+    display: flex;
+}
+
+.admin-content-left, .admin-content-right {
+    flex: 1;
+    padding: 20px;
+}
+
+.admin-content-left {
+    background-color: #f9f9f9;
+    border-right: 1px solid #ddd;
+}
+
+.admin-content-left-header h2 {
+    margin-top: 0;
+}
+
+.admin-content-left-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.admin-content-left-content ul li {
+    margin: 10px 0;
+}
+
+.admin-content-left-content ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.admin-content-left-content ul li a:hover {
+    background-color: #ddd;
+}
+
+.admin-content-right-header h2 {
+    margin-top: 0;
+}
+
+.admin-content-right-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.admin-content-right-content-box {
+    flex: 1;
+    min-width: 200px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-content-right-content-box h3 {
+    margin: 0;
+    font-size: 2em;
+    color: #333;
+}
+
+.admin-content-right-content-box p {
+    margin: 10px 0 0;
+    color: #666;
+}
+
+/* Footer styles */
+.admin-footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.admin-footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.admin-footer a:hover {
+    text-decoration: underline;
+}
+
+.add-book-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.add-book-section .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-book-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.add-book-form .form-group {
+    margin-bottom: 15px;
+}
+
+.add-book-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.add-book-form .form-group input,
+.add-book-form .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-book-form .form-group textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.add-book-form .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-book-form .btn:hover {
+    background-color: #0056b3;
+}
+
+.track-orders-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.track-orders-section .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.track-orders-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.orders-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.orders-table th,
+.orders-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.orders-table th {
+    background-color: #f2f2f2;
+}
+
+.orders-table .btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.orders-table .btn:hover {
+    background-color: #0056b3;
+}

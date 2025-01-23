@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.user-dashboard {
+    padding: 20px;
+}
+
+.user-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.user-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.user-header__title {
+    font-size: 2em;
+    color: #333;
+}
+
+.user-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.left-info, .right-info {
+    flex: 1;
+    min-width: 300px;
+}
+
+.rent-header {
+    margin-bottom: 10px;
+}
+
+.rent-header__title {
+    font-size: 1.5em;
+    color: #555;
+}
+
+.rent-info__item {
+    background-color: #e9e9e9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.rent-info__title {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.rent-info__desc {
+    font-size: 1em;
+    color: #777;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .user-info {
+        flex-direction: column;
+    }
+
+    .left-info, .right-info {
+        min-width: 100%;
+    }
+}

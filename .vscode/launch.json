@@ -1,0 +1,41 @@
+{
+  "configurations": [
+    {
+      "type": "chrome",
+      "name": "http://127.0.0.1:3000/HTML/signUp.html",
+      "request": "launch",
+      "url": "http://127.0.0.1:3000/HTML/signUp.html"
+    },
+    {
+      "type": "chrome",
+      "name": "http://127.0.0.1:3000/HTML/home.html",
+      "request": "launch",
+      "url": "http://127.0.0.1:3000/HTML/home.html"
+    },
+    {
+      "type": "chrome",
+      "name": "http://127.0.0.1:3000/HTML/about.html",
+      "request": "launch",
+      "url": "http://127.0.0.1:3000/HTML/about.html"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/yop/Desktop/LMS_PROJECT/IP/Try2/HTML",
+      "program": "c:/Users/yop/Desktop/LMS_PROJECT/IP/Try2/HTML/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

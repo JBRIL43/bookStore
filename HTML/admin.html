@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontAwsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- FavIocn -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/CSS/admin.css">
+    <!-- Rsponsive CSS -->
+    <link rel="stylesheet" href="../CSS/responsive.css">
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="../CSS/theme.css">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="./home.html">
+                    <img src="../Images/logo.png" alt="Logo" class="logo">
+                </a>
+
+                <div class="navbar__menu" id="navbar__menu">
+                    <ul class="navbar__list">
+                        <li class="navbar__item">
+                            <a href="./home.html" class="navbar__link">
+                                Home
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="./about.html" class="navbar__link">
+                                Catalog
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="./services.html" class="navbar__link">
+                                About
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="./contact.html" class="navbar__link">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav-left">
+                    <div hidden class="navbar__close" id="navbar__close">
+                        <i class="fas fa-times"></i>
+                    </div>
+    
+                    <div class="user-dashboard">
+                        <div class="dashboard-btn">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <a href="./cart.html" class="user-dashboard__cart">
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
+                    </div>
+    
+                    <div class="navbar__logout">
+                        <button id="logout-btn" class="logout-btn">
+                            Logout
+                        </button>
+                    </div>
+
+                    <div class="navbar__toggle" id="navbar__toggle">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="admin-section">
+        <div class="admin-container">
+            <div class="admin-header">
+                <h1>Admin Dashboard</h1>
+            </div>
+            <div class="admin-content">
+                <div class="admin-content-left">
+                    <div class="admin-content-left-header">
+                        <h2>Admin Panel</h2>
+                    </div>
+                    <div class="admin-content-left-content">
+                        <ul>
+                            <li><a href="admin.php">Dashboard</a></li>
+                            <li><a href="add-book.php">Add Book</a></li>
+                            <li><a href="track-orders.php">Track Orders</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="admin-content-right">
+                    <div class="admin-content-right-header">
+                        <h2>Dashboard</h2>
+                    </div>
+                    <div class="admin-content-right-content">
+                        <div class="admin-content-right-content-box">
+                            <h3>5</h3>
+                            <p>Total Orders</p>
+                        </div>
+                        <div class="admin-content-right-content-box">
+                            <h3>$2,300.00</h3>
+                            <p>Revenue Generated</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="admin-footer">
+                <p>2020 All rights reserved, Food House. Developed By - <a href="#">CSE485</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="add-book-section">
+        <div class="container">
+            <h2>Add Book</h2>
+            <form action="add-book.php" method="post" class="add-book-form">
+                <div class="form-group">
+                    <label for="title">Title:</label>
+                    <input type="text" id="title" name="title" required>
+                </div>
+                <div class="form-group">
+                    <label for="author">Author:</label>
+                    <input type="text" id="author" name="author" required>
+                </div>
+                <div class="form-group">
+                    <label for="isbn">ISBN:</label>
+                    <input type="text" id="isbn" name="isbn" required>
+                </div>
+                <div class="form-group">
+                    <label for="price">Price:</label>
+                    <input type="text" id="price" name="price" required>
+                </div>
+                <div class="form-group">
+                    <label for="category">Category:</label>
+                    <input type="text" id="category" name="category" required>
+                </div>
+                <div class="form-group">
+                    <label for="description">Description:</label>
+                    <textarea id="description" name="description" required></textarea>
+                </div>
+                <button type="submit" class="btn">Add Book</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="track-orders-section">
+        <div class="container">
+            <h2>Track Orders</h2>
+            <table class="orders-table">
+                <thead>
+                    <tr>
+                        <th>Order ID</th>
+                        <th>Customer Name</th>
+                        <th>Book Title</th>
+                        <th>Quantity</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Example row -->
+                    <tr>
+                        <td>1</td>
+                        <td>John Doe</td>
+                        <td>Example Book</td>
+                        <td>2</td>
+                        <td>Pending</td>
+                        <td><button class="btn">Update</button></td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                </tbody>
+            </table>
+        </div>
+    </section>
+</body>
+</html>
